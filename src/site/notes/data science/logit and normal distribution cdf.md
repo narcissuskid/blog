@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/data-science/logit-and-normal-distribution-cdf/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/data-science/logit-and-normal-distribution-cdf/"}
 ---
 
 
