@@ -94,3 +94,64 @@
 >
 >{ #epwt9eipb4}
 
+
+
+>
+>*limiting violations, we try to ==find a pathway with a pre-specified width that contains as many of the observations as possible== .  Consider a simple situation w*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^8gzb5ngdw3j\|show annotation]]
+>
+>
+>
+>{ #8gzb5ngdw3j}
+
+
+
+>
+>*gression.  Instead of trying to ==fit  the largest possible pathway between two classes while limiting violations,== we try to find a pathway with a*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^uyb9hosay0n\|show annotation]]
+>
+>
+>
+>{ #uyb9hosay0n}
+
+
+
+>
+>*e function to be minimized is ==𝐶∑𝑧𝑖𝑛𝑖=1+∑𝑤𝑗2== *
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^lgoscrzyfg\|show annotation]]
+>
+>svm classification object function
+>
+>{ #lgoscrzyfg}
+
+
+
+>
+>*inimized in SVM regression is ==𝐶∑𝑧𝑖𝑛𝑖=1+∑𝑤𝑗2== *
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^t65640463kk\|show annotation]]
+>
+>svm regression object function
+>
+>{ #t65640463kk}
+
+
+
+>
+>*e  linear regression because   ==The  relationship  between  the  target  and  the  features  is  repre-sented by a pathway rather than a single line.  The prediction error is counted as zero when  an observation lies within the pathway.== *
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^t8hnrd4pmug\|show annotation]]
+>
+>difference between svm and simple linear regression
+>
+>
+>{ #t8hnrd4pmug}
+
+
+
+>
+>*Chapter 5     ==Errors for observations outside the pathway are calculated as the difference  between  the  target  value  and  the  closest  point  in  the pathway that is consistent with the feature values.  There is usually some regularization built into the objective func-tion.== Figure  5.8      Results  for*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^ndt939md7co\|show annotation]]
+>
+>
+>
+>{ #ndt939md7co}
+
