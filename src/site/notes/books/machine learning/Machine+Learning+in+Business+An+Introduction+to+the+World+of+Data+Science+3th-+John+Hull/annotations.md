@@ -155,3 +155,164 @@
 >
 >{ #ndt939md7co}
 
+
+
+>
+>*he ith observation, we define: ==𝑧𝑖 =max(𝑏+1−∑𝑤𝑗𝑥𝑖𝑗𝑚𝑗=1,0)   if positive outcome   𝑧𝑖 =max(∑𝑤𝑗𝑥𝑖𝑗𝑚𝑗=1−(𝑏−1),0)   if negative outcome== The variable zi is a measure of*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^hy6afmc2pn9\|show annotation]]
+>
+>
+>
+>{ #hy6afmc2pn9}
+
+
+
+>
+>*by trial and error.  Typically, ==the size of the network is increased until  it  is found that further increases  produce  little increase in accuracy.== A neural network can easily giv*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^n5kaeylfxy\|show annotation]]
+>
+>how to set the size of the network
+>
+>
+>{ #n5kaeylfxy}
+
+
+
+>
+>*s later in this chapter.   6.3 ==Other Activation Functions== The  sigmoid  function  𝑓(𝑦)=*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^e51q34rld7n\|show annotation]]
+>
+>
+>
+>{ #e51q34rld7n}
+
+
+
+>
+>*Method  As  already  indicated, ==neural  networks  learn  more  efficiently  when the features being input are scaled== using one of the methods in Sect*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^494sya1ce6\|show annotation]]
+>
+>neural networks need to scale features
+>
+>{ #494sya1ce6}
+
+
+
+>
+>*a minimum in many  dimensions. ==Variations  on  the  basic  gradient  descent  algorithm== have  been  developed  to  impr*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^xqsydej5xxs\|show annotation]]
+>
+>
+>
+>{ #xqsydej5xxs}
+
+
+
+>
+>*his calculates a gradient as an ==exponentially  decaying  moving  average  of  past  gradients== .  This approach  helps  to  spe*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^ide35ipho3\|show annotation]]
+>
+>
+>
+>{ #ide35ipho3}
+
+
+
+>
+>*tern of implied volatilities. ==Understanding  how  the  volatility  surface  moves  is  important  for  a number of reasons:==  It can help a trader hedge e*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^opzsvrg2bt9\|show annotation]]
+>
+>
+>
+>{ #opzsvrg2bt9}
+
+
+
+>
+>*ayer, and T targets, there are ==(F + 1)M + M(M + 1)(H − 1) + (M + 1)T== parameters  in  total.    For*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^6gqr6tkku2l\|show annotation]]
+>
+>computer the number of parameters
+>
+>{ #6gqr6tkku2l}
+
+
+
+>
+>*ised  learning.    It  explains ==autoencoders,  which  are a  form of  unsuper-vised learning where the objective is to  replace  a set of features with a smaller  number  of  manufactured  features  that  provide  similar  infor-mation.== It then moves on to cover varia*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^o0orhiqyq28\|show annotation]]
+>
+>
+>
+>{ #o0orhiqyq28}
+
+
+
+>
+>*vides  an  il-lustration of the ==exploitation vs. exploration trade-off which is central to reinforcement  learning.== We  then  move  on  to  conside*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^hmtd0dr5fmf\|show annotation]]
+>
+>
+>
+>{ #hmtd0dr5fmf}
+
+
+
+>
+>*popular approach is to choose a ==decay factor, ,== and set   ε=β𝑡−1  on trial t.*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^n9sozny27m\|show annotation]]
+>
+>
+>
+>{ #n9sozny27m}
+
+
+
+>
+>*179 ==Two  hyperparameters  in  reinforcement  learning  are  the  parameter in  equation  (8.3)  and  the  decay  factor  .== Typically,  both  are  deter-mi*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^lfi1u24wvi\|show annotation]]
+>
+>
+>
+>{ #lfi1u24wvi}
+
+
+
+>
+>*le of one million.  There  are ==three  state  variables== .  One  is  current  bid-mid  sp*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^45j3cve2gf6\|show annotation]]
+>
+>
+>
+>{ #45j3cve2gf6}
+
+
+
+>
+>*variables.  One  is  current ==bid-mid  spread== .  A second  is the  number  sha*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^sfapn8iezwj\|show annotation]]
+>
+>
+>
+>{ #sfapn8iezwj}
+
+
+
+>
+>*mid  spread.  A second  is the ==number  shares== (measured  in  millions) that*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^8q5ckyviqi7\|show annotation]]
+>
+>
+>
+>{ #8q5ckyviqi7}
+
+
+
+>
+>*to  be sold. The third is the ==number of days left== .    The action is the number of*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^hmok1g6q28e\|show annotation]]
+>
+>
+>
+>{ #hmok1g6q28e}
+
