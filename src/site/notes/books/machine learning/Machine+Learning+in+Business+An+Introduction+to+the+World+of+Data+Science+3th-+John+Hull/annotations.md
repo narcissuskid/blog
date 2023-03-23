@@ -316,3 +316,424 @@
 >
 >{ #hmok1g6q28e}
 
+
+
+>
+>*me is unrealistic.  Typical-ly, ==a realistic objective is to find a model that agrees with human judge-ment 70% of the time.== 9.2   Pre-Processing  Suppose*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^hey1rlumu85\|show annotation]]
+>
+>
+>
+>{ #hey1rlumu85}
+
+
+
+>
+>*“argu”. A related procedure is ==lemmatization== .  This  uses  a look up table t*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^ks0xtj1ejj\|show annotation]]
+>
+>
+>
+>{ #ks0xtj1ejj}
+
+
+
+>
+>*olves what  is referred  to as ==stemming== . This is the removal of suffice*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^31z3j1kjagh\|show annotation]]
+>
+>
+>
+>{ #31z3j1kjagh}
+
+
+
+>
+>*to  remove  what  are  termed ==stop  words.== These  are words like “the”, “*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^8471ns6i1eg\|show annotation]]
+>
+>
+>
+>{ #8471ns6i1eg}
+
+
+
+>
+>*vert all up-per case characters ==to lower case== . It  is  common  to  remove  wh*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^xxkxlcruav8\|show annotation]]
+>
+>
+>
+>{ #xxkxlcruav8}
+
+
+
+>
+>*nd an appropriate root word. ==Correcting spelling mistakes== is desirable because it avoids d*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^nl4agv8in0b\|show annotation]]
+>
+>
+>
+>{ #nl4agv8in0b}
+
+
+
+>
+>*ence.  It  is also important to ==recognize abbreviations.== For example, “u” in a text mess*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^mxw495fm4n\|show annotation]]
+>
+>
+>
+>{ #mxw495fm4n}
+
+
+
+>
+>*may  also  be  appropriate  to ==remove  rare  words== that  appear  only once  or  tw*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^xyp4nck814l\|show annotation]]
+>
+>
+>
+>{ #xyp4nck814l}
+
+
+
+>
+>*one  positive  word?  There  is ==some  re-search indicating that the repetition of a word provides little additional information== .6   The  bag-of-words  model  t*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^78hj1cnf9ba\|show annotation]]
+>
+>
+>
+>{ #78hj1cnf9ba}
+
+
+
+>
+>*additional information.6   The ==bag-of-words  model  takes  no  account  of  the  order  of  words== .  It just  counts  the  words.*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^rue3feq7du9\|show annotation]]
+>
+>
+>
+>{ #rue3feq7du9}
+
+
+
+>
+>*. One possible improvement is to ==consider word pairs== as positive or negative. In the*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^ky0amq9yh28\|show annotation]]
+>
+>
+>
+>{ #ky0amq9yh28}
+
+
+
+>
+>*tive words is referred to as an ==n-gram== .  One word is a unigram, two co*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^ss06a4oxquo\|show annotation]]
+>
+>
+>
+>{ #ss06a4oxquo}
+
+
+
+>
+>*is  obtained,  is  known  as ==Laplace  smoothing== .  In  this  case  we can imagin*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^4ekvnmmspct\|show annotation]]
+>
+>
+>
+>{ #4ekvnmmspct}
+
+
+
+>
+>*er has the advantage that it is ==easy to imple-ment  and  very  fast.== However,  the  independence  a*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^6ay6xs0xtin\|show annotation]]
+>
+>
+>
+>{ #6ay6xs0xtin}
+
+
+
+>
+>*and  very  fast.  However,  the ==independence  assumption== is  imper-fect because some wo*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^wiahewlwsks\|show annotation]]
+>
+>
+>
+>{ #wiahewlwsks}
+
+
+
+>
+>*ïve Bayes  classifier that  it ==does  not  make the independence assumption.== Decision trees and neural netw*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^re9jnq153lq\|show annotation]]
+>
+>
+>
+>{ #re9jnq153lq}
+
+
+
+>
+>*s that  are  commonly  used  are ==term  frequency  (TF)== and  inverse  document frequenc*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^rx2hprtvr0n\|show annotation]]
+>
+>
+>
+>{ #rx2hprtvr0n}
+
+
+
+>
+>*are  term  frequency  (TF)  and ==inverse  document frequency (IDF)== . The TF for a document and a wo*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^k9tdiba81fo\|show annotation]]
+>
+>
+>
+>{ #k9tdiba81fo}
+
+
+
+>
+>*mation retrieval algorithm, the ==order of the words input by the user makes no difference== .   9.7   Other NLP Applications*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^u0bynlbshop\|show annotation]]
+>
+>
+>
+>{ #u0bynlbshop}
+
+
+
+>
+>*r  application  of  NLP  is  to ==word  sequences.== It  asks  the  ques-tion:  Wha*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^nhi8oem0a4m\|show annotation]]
+>
+>
+>
+>{ #nhi8oem0a4m}
+
+
+
+>
+>*at we have to do in practice is ==break the sentence down into subsequences of words== . For example, we might consider*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^m0rjldteuh\|show annotation]]
+>
+>
+>
+>{ #m0rjldteuh}
+
+
+
+>
+>*s mentioned in Chapter 1, uses a ==long short-term memory re-current  neural  network== (see  Section  7.5).  This  pr*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^gwp9t5lgv4\|show annotation]]
+>
+>
+>
+>{ #gwp9t5lgv4}
+
+
+
+>
+>*This involves  such  tasks  as ==separating  out  the  words,  eliminating  punctua-tion,  changing  upper  case  letters  to  lower  case,  removing  commonly occurring words, and removing words that are very rare.== The result is a vocabulary of*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^intxws2zjg\|show annotation]]
+>
+>
+>
+>{ #intxws2zjg}
+
+
+
+>
+>*ion. Among the machine learning ==models that can be used are the naïve Bayes classifier, SVM, logistic re-gression, decision trees, and neural networks== .   Search  engines  are  an  in*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^0buh45qnq2cs\|show annotation]]
+>
+>
+>
+>{ #0buh45qnq2cs}
+
+
+
+>
+>*terpretation.  Models  such  as ==neural  networks,  SVM,  and  ensemble  models  are  in the  black-box  category.== There  is  no  easy  way  to  u*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^zy5o7996e3\|show annotation]]
+>
+>
+>
+>{ #zy5o7996e3}
+
+
+
+>
+>*an easy interpretation. It  is ==the value of the tar-get  when  all  features  have  their  average  values.== It  is  also  the  average v*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^nmdbohxrwb\|show annotation]]
+>
+>
+>
+>{ #nmdbohxrwb}
+
+
+
+>
+>*𝑋̅1 +𝑏2𝑋̅2 +⋯+𝑏𝑚𝑋̅𝑚 This ==bias== does have an easy interpretatio*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^5kw35cgxxjg\|show annotation]]
+>
+>
+>
+>{ #5kw35cgxxjg}
+
+
+
+>
+>*ression models are implemented. ==R-squared i== s an indication of the overall p*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^0737v3ddc0sx\|show annotation]]
+>
+>
+>
+>{ #0737v3ddc0sx}
+
+
+
+>
+>*much it can be relied upon. The ==t-statistics== for the weights can be used to p*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^a3xznvuhlkm\|show annotation]]
+>
+>
+>
+>{ #a3xznvuhlkm}
+
+
+
+>
+>*weights can be used to provide ==con-fidence limits for the sensitivities== . Suppose bj is 10 with a t-stat*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^q1bn4129m8\|show annotation]]
+>
+>
+>
+>{ #q1bn4129m8}
+
+
+
+
+>
+>*nsidering changes. Sometimes, a ==principal  components  analysis  or  an  autoencoder  can  suggest  a  way  to redefine the features so that they are independent== (or nearly independ-ent).  10.2*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^jcnc5o7twhq\|show annotation]]
+>
+>
+>
+>{ #jcnc5o7twhq}
+
+
+
+>
+>*In  a  particular  situation,  t ==he  impact  of  feature  j  can  be  determined changing  feature  j  while  keeping  all  features  except  feature  j  fixed.== An extension  of  this  idea*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^xo37touoq5\|show annotation]]
+>
+>
+>
+>{ #xo37touoq5}
+
+
+
+>
+>*on  of  this  idea  is  where  t ==wo  features  are  considered  simultane-ously so that a three-dimensional plot is obtained.== To  provide  an  overall  unde*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^917i14wmtku\|show annotation]]
+>
+>
+>
+>{ #917i14wmtku}
+
+
+
+>
+>*ion of  xj. This is known as  a ==partial dependence plot== . (In the case of linear regress*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^18srexivpve\|show annotation]]
+>
+>
+>
+>{ #18srexivpve}
+
+
+
+>
+>*plicated  calculation  of  the ==contributions  of  features== leads  to  a  result  where  th*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^moskigtw6\|show annotation]]
+>
+>
+>
+>{ #moskigtw6}
+
+
+
+>
+>*However,  what  are  known  as ==Shapley  values== show that  a  more  complicated*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^1fmseg6p8r2\|show annotation]]
+>
+>
+>
+>{ #1fmseg6p8r2}
+
+
+
+>
+>*e have  just illus-trated that t ==he sum of the contributions equals the total change.== Others are:   If a feature nev*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^klv6uorjli8\|show annotation]]
+>
+>
+>
+>{ #klv6uorjli8}
+
+
+
+>
+>*edictions  are different (i.e., ==the benchmark does not have to be a prediction based on average feature values== ). However, they have a limited*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^7xjdzz8x6xp\|show annotation]]
+>
+>
+>
+>{ #7xjdzz8x6xp}
+
+
+
+>
+>*e values). However, they have a ==limited ability to explain the  workings  of  the  model  as  a  whole== .  Also,  interactions  between*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^r2vdp65thsk\|show annotation]]
+>
+>
+>
+>{ #r2vdp65thsk}
+
+
+
+>
+>*pproach is computationally very ==time consum-ing== when there are many features..1*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^mgb6esvc03\|show annotation]]
+>
+>
+>
+>{ #mgb6esvc03}
+
+
+
+>
+>*xplained using the new  model. ==The  samples  can  be  weighted  according  to  their  closeness to the current  values of the features.== The new model will often  conta*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^tv4xgtcfdq\|show annotation]]
+>
+>
+>
+>{ #tv4xgtcfdq}
+
+
+
+>
+>*he features. The new model will ==often  contain less features== than the original model (e.g.,*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^f08o40asa3m\|show annotation]]
+>
+>
+>
+>{ #f08o40asa3m}
+
