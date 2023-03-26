@@ -737,3 +737,13 @@
 >
 >{ #f08o40asa3m}
 
+
+
+>
+>*p-pears  in  negative opinions. ==If the  jth  word  in the  vocabulary  is not  in  a particular  opinion,  we  define  pj  as  the  probability  that  word  j  does  not appear in positive opinions== and qj as  the probability it  d*
+>[[books/machine learning/Machine+Learning+in+Business+An+Introduction+to+the+World+of+Data+Science+3th-+John+Hull/annotations#^0w8mnh70fgq\|show annotation]]
+>
+>
+>
+>{ #0w8mnh70fgq}
+
